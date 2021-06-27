@@ -1,0 +1,416 @@
+/* Style the header with a grey background and some padding */
+.text-box1 {
+  background-image:url(../Images/Group1.png),url(../Images/background1.png);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  
+}
+/* Style the header links */
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+
+}
+
+.header b {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 6px;
+  text-decoration: none;
+  font-size: 15px;
+  line-height: 20px;
+  border-radius: 20px;
+}
+ .logo{
+  height: 60px;
+  width: 170px;
+ }
+/* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+.text-bold{
+  font-weight: bold;
+}
+.img-thumbnail1{
+  height: 300px;
+  width: 300px;
+}
+.background1{
+  background-image:url(../Images/background.png);
+}
+
+/* Change the background color on mouse-over */
+.header a:hover {
+  /*background-color: #ddd;*/
+  text-decoration-color: red;
+  text-decoration: underline;
+}
+
+/* Style the active/current link*/
+.header a.active {
+  background-color: rgb(230, 27, 105);
+  color: black;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-size: small;
+}
+.header b.active {
+  background-color: orange;
+  color: white;
+  
+}
+.button_new{
+  margin-left: 450px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.btn2{
+  background-color: rgb(230, 27, 105);
+  color: black;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-size: small;
+  margin-right: auto;
+  border-radius: 15px;
+  text-align: center;
+}
+.button1{
+  color: black;
+  padding: 10px 20px;
+  border-radius: 25px;
+  /*width: 200px;*/
+  font-size: small;
+  border-radius: 15px;
+  text-align: center;
+}
+/* Float the link section to the right */
+.header-right {
+  float: right;
+  text-align: center;
+}
+
+/* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
+@media screen and (max-width: 500px margin: auto) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .header b {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .header-right {
+    float: none;
+    text-align: center;
+  }
+}
+.text-box1{
+  text-align: center;
+  
+ 
+} 
+.text-box2{
+  text-align: center;
+ }
+.text-box3{
+  text-align: center;
+}
+
+.text-box5{
+  background-image:url(../Images/Group2.png);
+  height: 500px;
+  width: 700px;
+  float: right;
+  background-size: cover;
+  background-position: center;
+}
+
+.text-box6{
+  background-image:url(../Images/Group141.png), url(../Images/background.png),url(../Images/bg4.png);
+  height: 300px;
+  width: 100%;
+  margin-top: 50px;
+  float: right;
+  background-size: cover;
+  background-position: center;
+}
+.text-box6 p, h1{
+  margin-top: 45px;
+  text-align: center;
+  color: white;
+}
+.active2{
+  margin-left: 550px;
+  padding: 10px;
+  font-size: x-large;
+  border-radius: 15px;
+}
+.img1{
+  margin-right: 10px;
+  height: 20px;
+  width: 20px;
+}
+.clipgroup{
+  height: 500px;
+    width: 450px;
+    float: right;
+    margin-right: 50px;
+}
+.box7-text{
+  text-align: center;
+}
+.text-box7{
+  height: 500px;
+  width: 700px;
+  float: left;
+  background-size: cover;
+  background-position: center;
+}
+.clipgroup1{
+  height: 500px;
+    width: 450px;
+    float: left;
+    margin-right: 50px;
+}
+.clipgroup2{
+  height: 100px;
+    width: 450px;
+    float: center;
+    margin-right: 50px;
+}
+.parllel{
+  width: 400px;
+  height: 200px;
+  margin-left: 100px;
+  text-align: center;
+  margin-top: 160px;
+  margin-bottom: 160px;
+}
+.list-item{
+  list-style: none;
+}
+.list-item li{
+  margin: 30px;
+}
+.text11{
+  color: black;
+  text-align: center;
+}
+.p{
+  
+  font-size: 25px;
+  text-align: center;
+}
+.h{
+ font-size: 30px;
+ text-align: center;
+ color: black;
+}
+.box{
+  text-align: center;
+  align-self: center;
+  padding-top: 170px;
+}
+
+.text-box7{
+  margin-top: 50px;
+  text-align: center;
+}
+.text-box8{
+  text-align: center;
+  margin-top: 200px;
+}
+/* Container holding the image and the text */
+.container1 {
+  margin-top: 200px;
+  position: relative;
+}
+
+/* Bottom right text */
+.container1 .text-block {
+  text-align: left;
+  bottom: 150px;
+  right: 50px;
+  background-color: rgb(14, 21, 90);
+  color: white;
+  padding-left: 250px;
+  border-radius: 10px;
+  margin-top: 50%;
+  padding-bottom: 10px;
+  position: absolute;
+}
+.intrument_img{
+  height: 100px;
+  width: 100px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.text10{
+text-align: center;
+margin-top: 200px;
+}
+.icon1{
+  margin-top: 70px;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+.left_icon{
+  width: 50px;
+  height: 50px;
+}
+.icontext1{
+  width: 10px;
+  height: 10px;
+  margin-right: 10px;
+  text-align: right;
+}
+.parllell{
+  width: 400px;
+  height: 200px;
+  text-align: center;
+}
+.form1{
+  background-image: url(../Images/background.png);
+  /* background: blue; */
+}
+.side-img{
+  height: 350px;
+  width: 350px;
+  position: right;
+}
+
+.hading1{
+  background-color: chartreuse;
+}
+
+.text-special {
+  background-image:url(../Images/comment.png);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  margin-top: 20px;
+  
+}
+
+.p1{
+  margin-top: 5px;
+  font-size: 20px;
+  /* font-weight: bold; */
+  text-align: center;
+  border-color: red;
+}
+
+.box1 , .box2{
+  text-align: center;
+  align-self: center;
+  padding-top: 80px;
+}
+
+.img-social{
+  height: 30px;
+  width: 30px;
+  padding-top: 5px;
+  margin-top: 4px;
+  margin-left: 2px;
+  
+}
+.socialIcon{
+  background-color: #163057;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  border-style: dotted;
+  border-color: white;
+  border-width: 1px;
+  display: inline-block;
+}
+.contactDetail{
+  display: inline-flex;
+  margin-top: 20px;
+
+}
+.emailAdd{
+  color: white;
+  /* margin-left: 10px; */
+  margin-right: 10px;
+  
+}
+.phoneNum{
+  color: white;
+  margin-right: 20px;
+}
+.addDetails{
+  color: white;
+}
+.phoneNm{
+  height: 15px;
+  width: 15px;
+  margin-top: 5px;
+  margin-right: 5px;
+}
+.emailNm{
+  height: 15px;
+  margin-top: 5px;
+  width: 15px;
+  margin-left: 30px;
+  margin-right: 5px;
+}
+.addNm{
+  height: 15px;
+  width: 15px;
+  margin-top: 5px;
+  margin-right: 5px;
+  margin-left: 20px;
+}
+.copyRight{
+  color: white;
+  margin-top: 20px;
+}
+.border{
+  border-color: black;
+  border-width: 5px;
+  margin-bottom: 20px;
+  height: 70px;
+}
+.selectBox{
+  width: 183px;
+  height: 30px;
+  margin-left: 6px;
+}
+.col-6{
+  flex: 0 0 auto;
+  width: 50%;
+  padding-top: 40px;
+}
+.img-thumbnail1{
+  height: 300px;
+  width: 300px;
+  margin-left: 30px;
+}
+.img-thumbnail2{
+  height: 300px;
+  width: 300px;
+  margin-left: 260px;
+}
+.text18{
+  margin-top: 10px;
+}
+
+
+
+
